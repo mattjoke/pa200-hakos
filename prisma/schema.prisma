@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://hakos:MattJoke123@pa200-du2.postgres.database.azure.com:5432/postgres?schema=public"
+  url      = "postgresql://hakos:postgresqlPass123@13.79.145.241:5432/postgres?schema=public"
 }
 
 model User {
