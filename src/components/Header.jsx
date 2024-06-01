@@ -1,8 +1,9 @@
 'use client'
-import React from 'react'
+
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import React from 'react'
 import styles from './Header.module.css'
+import { usePathname } from 'next/navigation'
 
 const Header = () => {
   const routePathName = usePathname()
@@ -13,7 +14,7 @@ const Header = () => {
       <div className={styles.left}>
         <Link href="/" legacyBehavior>
           <a className={styles.bold} data-active={isActive('/')}>
-            Blog
+            Blogs
           </a>
         </Link>
         <Link href="/drafts" legacyBehavior>
